@@ -1,0 +1,137 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+    padding-bottom: 50px;
+}
+ 
+/* HERO SECTION */
+
+#hero {
+    background-image: url("images/casablanca.jpg");
+    background-size: cover;
+    padding: 30px 0 100px 0;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-logo {
+    width: 100px;
+}
+
+#title {
+    margin: 70px 0 50px 0;
+    background: #111d38a1;
+    border-radius: 10px;
+    text-shadow: 3px 2px 0px rgb(86, 94, 103);
+    padding: 5px 30px;
+    transition: 400ms;
+}
+
+#title:hover {
+    background: #3b4969;
+}
+
+#description {
+    background: #c991387d;
+    padding: 11px 50px;
+    border-radius: 10px;
+    text-shadow: 2px 0 3px black;
+    transition: 400ms;
+}
+
+#description:hover {
+    background: #a88040;
+}
+
+.border {
+    background: rgba(0, 0, 0, 0.489);
+    border-radius: 8px;
+    color: white;
+    padding: 0 5px;
+}
+
+/* START ACTIVITIES SECTION */
+
+#activities {
+    background: #b8c9dd;
+    padding-top: 10px;
+}
+
+.head {
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 2px 3px black;
+    border-bottom: 5px solid #445f53;
+    padding: 15px 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 45px;
+}
+
+.circle-img {
+    width: 250px;
+    border-radius: 100%;
+    padding-bottom: 20px;
+    transition: 500ms;
+}
+
+.circle-img:hover {
+    width: 300px;
+}
+
+.sub-head {
+    color: #2d3142;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.img-info {
+    color: #2d3142;
+}
+
+/* GUIDE SECTION */
+
+.card {
+    background: linear-gradient(#9c3a3ce0, #9e2a2c58);
+    padding: 15px 20px;
+    border-bottom: 12px solid #dd8889;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    margin: 90px auto 40px auto;
+}
+
+#img-profile {
+    width: 250px;
+    border: 6px solid #445f53;
+    border-radius: 10px;
+}
+
+#quote {
+    font-style: italic;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+#name {
+    text-align: right;
+    font-weight: bolder;
+}
